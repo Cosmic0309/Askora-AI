@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Askora | AI Data Automation Platform</title>
+    <meta name="description"
+        content="Train AI on your documents, SOPs and website to automate customer support 24/7. Answer questions instantly with Askora AI." />
+    <link rel="canonical" href="https://askora.ai/" />
+    <meta name="robots" content="index, follow">
+    <meta property="og:image" content="images/og-image.png">
+
+    <meta property="og:url" content="https://askora.ai">
+
+    <meta property="og:site_name" content="Askora">
+    <meta property="og:title" content="Askora">
+    <meta property="og:description" content="AI-powered Data Automation Platform">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:title" content="Askora">
+
+    <meta name="twitter:description" content="AI Customer Support Platform">
+
+    <meta name="twitter:image" content="images/og-image.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"SoftwareApplication",
+"name":"Askora",
+"applicationCategory":"BusinessApplication",
+"operatingSystem":"Web",
+"url":"https://askora.ai",
+"description":"AI customer support platform trained on your business knowledge."
+}
+</script>
+</head>
+
+<body>
+    <div class="scroll-progress"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="cursor-glow"></div>
+
+    <!-- NAV -->
+    <header class="nav" data-testid="site-nav">
+        <a href="#" class="logo" data-testid="nav-logo">
+            <span class="logo-mark">✦</span>
+            <span class="logo-text">Askora</span>
+        </a>
+        <nav class="nav-links">
+            <a href="#features" data-testid="nav-features">Features</a>
+            <a href="#how" data-testid="nav-how">How it works</a>
+            <a href="#demo" data-testid="nav-demo">Demo</a>
+            <a href="#pricing" data-testid="nav-pricing">Pricing</a>
+        </nav>
+        <div class="nav-cta">
+            <a href="#" class="btn-ghost" data-testid="nav-signin">Sign in</a>
+            <a href="#cta" class="btn-primary" data-testid="nav-try">Try free →</a>
+        </div>
+        <button class="nav-burger" aria-label="Menu" data-testid="nav-burger">
+            <span></span><span></span>
+        </button>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" data-testid="hero">
+        <div class="hero-meta">
+            <span class="dot"></span>
+            <span class="mono">v2.4 · now with Deep Research mode</span>
+        </div>
+
+        <h1 class="hero-title">
+            Ask anything.<br />
+            Get a <em>real</em> answer —<br />
+            not ten blue links.
+        </h1>
+
+        <p class="hero-sub">
+            Askora reads the open web, filters the noise and writes you a sourced,
+            synthesized answer in seconds. Built for people who think for a living.
+        </p>
+
+        <!-- Search mockup -->
+        <div class="search-wrap" data-testid="hero-search">
+            <div class="search-bar">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="m20 20-3.5-3.5" />
+                </svg>
+                <span class="search-text">
+                    Why are borrowing costs rising in emerging markets this quarter?
+                    <span class="caret"></span>
+                </span>
+                <button><kbd class="kbd"><b>⌘K</b></kbd></button>
+            </div>
+            <div class="search-chips">
+                <button class="chip" data-testid="chip-deep">⚡ Deep Research</button>
+                <button class="chip">🎓 Academic</button>
+                <button class="chip">💻 Code</button>
+                <button class="chip">📈 Finance</button>
+                <button class="chip">✎ Writing</button>
+            </div>
+        </div>
+
+        <div class="hero-proof">
+            <span class="mono">Trusted by teams at</span>
+            <div class="logos">
+                <span>Figment</span><span>Kaldera</span><span>Northwind</span>
+                <span>Orbit Labs</span><span>Hollis &amp; Co.</span><span>Monoform</span>
+            </div>
+        </div>
+
+        <!-- decorative -->
+        <div class="hero-orb" aria-hidden="true"></div>
+    </section>
+
+    <!-- MARQUEE STATS -->
+    <section class="stats" data-testid="stats">
+        <div class="stat">
+            <b class="counter" data-target="3.2" data-suffix="s">0</b>
+            <span>avg. answer time</span>
+        </div>
+
+        <div class="stat">
+            <b class="counter" data-target="94" data-suffix="%">0</b>
+            <span>cited, verifiable sources</span>
+        </div>
+
+        <div class="stat">
+            <b class="counter" data-target="180" data-suffix="+">0</b>
+            <span>languages supported</span>
+        </div>
+
+        <div class="stat">
+            <b class="counter" data-target="2.1" data-suffix="M">0</b>
+            <span>queries answered daily</span>
+        </div>
+    </section>
+
+    <!-- FEATURES BENTO -->
+    <section class="features" id="features" data-testid="features">
+        <div class="section-head">
+            <span class="mono tag">— 01 / Features</span>
+            <h2>Search, rebuilt from the answer down.</h2>
+        </div>
+
+        <div class="bento">
+            <div class="bento-card big" data-testid="feat-research">
+                <span class="mono">Deep Research</span>
+                <h3>Reads 50+ sources so you don't have to.</h3>
+                <p>Askora doesn't just summarize — it cross-checks, flags contradictions and shows you the receipts.</p>
+                <div class="fake-cite">
+                    <span>1. Reuters</span><span>2. IMF.org</span><span>3. FT</span><span>+47 more</span>
+                </div>
+            </div>
+
+            <div class="bento-card" data-testid="feat-cite">
+                <span class="mono">Inline citations</span>
+                <h3>Every sentence, sourced.</h3>
+                <p>Hover any claim to see exactly which paragraph of which source it came from.</p>
+            </div>
+
+            <div class="bento-card accent" data-testid="feat-code">
+                <span class="mono">Code mode</span>
+                <h3>Runs code, not just writes it.</h3>
+                <pre><code>&gt; fetch('/api/rates').then(r=&gt;r.json())
+← { usd: 0.92, eur: 1.00, jpy: 155.2 }</code></pre>
+            </div>
+
+            <div class="bento-card" data-testid="feat-threads">
+                <span class="mono">Threads</span>
+                <h3>Pick up any question, any day.</h3>
+                <p>Every conversation is searchable, shareable, and never forgets context.</p>
+            </div>
+
+            <div class="bento-card wide" data-testid="feat-privacy">
+                <span class="mono">Private by default</span>
+                <h3>Your queries aren't training data.</h3>
+                <p>End-to-end encrypted history. Incognito mode. Zero ad-tracking, ever. A search engine that works
+                    <em>for</em> you.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- Mobile Accordion -->
+        <div class="features-accordion">
+
+            <div class="accordion-item active">
+                <button class="accordion-header">
+                    <span>Deep Research</span>
+                    <span class="accordion-icon">+</span>
+                </button>
+
+                <div class="accordion-content">
+                    <p>
+                        Askora doesn't just summarize — it cross-checks,
+                        flags contradictions and shows you the receipts.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+
+                <button class="accordion-header">
+
+                    <span>Inline Citations</span>
+
+                    <span class="accordion-icon">+</span>
+
+                </button>
+
+                <div class="accordion-content">
+
+                    <p>
+
+                        Hover any claim to instantly inspect
+                        the original source paragraph.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="accordion-item">
+
+                <button class="accordion-header">
+
+                    <span>Code Mode</span>
+
+                    <span class="accordion-icon">+</span>
+
+                </button>
+
+                <div class="accordion-content">
+
+                    <p>
+
+                        Execute JavaScript,
+                        fetch APIs,
+                        debug code and inspect outputs.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="accordion-item">
+
+                <button class="accordion-header">
+
+                    <span>Threads</span>
+
+                    <span class="accordion-icon">+</span>
+
+                </button>
+
+                <div class="accordion-content">
+
+                    <p>
+
+                        Every conversation stays searchable
+                        and remembers previous context.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="accordion-item">
+
+                <button class="accordion-header">
+
+                    <span>Private by Default</span>
+
+                    <span class="accordion-icon">+</span>
+
+                </button>
+
+                <div class="accordion-content">
+
+                    <p>
+
+                        End-to-end encrypted conversations.
+                        Zero ad tracking.
+                        Total privacy.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how" id="how" data-testid="how">
+        <div class="section-head">
+            <span class="mono tag">— 02 / How it works</span>
+            <h2>Three steps from question to clarity.</h2>
+        </div>
+
+        <ol class="steps">
+            <li data-testid="step-1">
+                <span class="step-num">01</span>
+                <h4>Ask in your own words.</h4>
+                <p>No keywords, no Boolean gymnastics. Talk like you'd talk to a smart friend.</p>
+            </li>
+            <li data-testid="step-2">
+                <span class="step-num">02</span>
+                <h4>Askora scouts the web.</h4>
+                <p>In parallel, we crawl papers, news, PDFs and forums — then rank by relevance and recency.</p>
+            </li>
+            <li data-testid="step-3">
+                <span class="step-num">03</span>
+                <h4>You get a sourced answer.</h4>
+                <p>Structured, cited, copy-ready. Ask a follow-up and it remembers everything.</p>
+            </li>
+        </ol>
+    </section>
+
+    <!-- DEMO PREVIEW -->
+    <section class="demo" id="demo" data-testid="demo">
+        <div class="section-head light">
+            <span class="mono tag">— 03 / Live preview</span>
+            <h2>A real question. A real answer.</h2>
+        </div>
+
+        <div class="demo-card">
+            <div class="demo-q">
+                <span class="mono">you asked</span>
+                <p>How is climate change affecting global food security today?</p>
+            </div>
+
+            <div class="demo-a">
+                <span class="mono">askora · 2.8s · 38 sources</span>
+                <p>
+                    The outlook is <mark>uncertain but improving</mark>. Renewable energy adoption
+                    (solar and wind) is steadily reducing <em>carbon emissions</em>,
+                    but a 2024 global report<sup>[1]</sup> notes fossil fuels still dominate
+                    total energy use<sup>[2]</sup>. For developing nations, transitions remain
+                    slower due to cost and infrastructure limits<sup>[3]</sup>.
+                </p>
+                <div class="demo-sources">
+                    <a>[1] International Energy Agency</a>
+                    <a>[2] United Nations Report</a>
+                    <a>[3] Energy Institute Review</a>
+                    <a>+35</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" data-testid="testimonials">
+        <div class="section-head">
+            <span class="mono tag">— 04 / Loved by curious minds</span>
+            <h2>The last tab you'll open.</h2>
+        </div>
+
+        <div class="tcards">
+            <figure data-testid="t-1">
+                <blockquote>"I closed Google on day two. Askora is what search <em>should</em> have been."
+                </blockquote>
+                <figcaption><b>Priya R.</b><span>Research analyst, London</span></figcaption>
+            </figure>
+            <figure data-testid="t-2">
+                <blockquote>"The citations alone are worth it. I can trust what it tells me, and my editor can check."
+                </blockquote>
+                <figcaption><b>Marcus O.</b><span>Journalist, The Beacon</span></figcaption>
+            </figure>
+            <figure data-testid="t-3">
+                <blockquote>"Replaced three SaaS tools in my stack. Deep Research writes a brief in under a minute."
+                </blockquote>
+                <figcaption><b>Sana K.</b><span>Founder, Kaldera</span></figcaption>
+            </figure>
+            <figure data-testid="t-4">
+                <blockquote>"It's the only AI tool my students are actually allowed to cite."</blockquote>
+                <figcaption><b>Dr. Eli Hart</b><span>Professor, UCL</span></figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing" id="pricing" data-testid="pricing">
+        <div class="pricing-controls">
+
+            <div class="billing-toggle">
+                <button id="monthlyBtn" class="active">Monthly</button>
+                <button id="annualBtn">Annual <span class="save-badge">Save 20%</span></button>
+            </div>
+
+            <!-- <select id="currency">
+                <option value="INR">₹ INR</option>
+                <option value="USD">$ USD</option>
+                <option value="EUR">€ EUR</option>
+            </select> -->
+
+            <div class="currency-dropdown">
+
+                <button id="currencyBtn" class="currency-btn">
+
+                    <span id="selectedCurrency">
+
+                        ₹ INR
+
+                    </span>
+
+                    <svg class="arrow" width="18" height="18" viewBox="0 0 24 24">
+
+                        <path d="M6 9L12 15L18 9" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+
+                    </svg>
+
+                </button>
+
+                <div class="currency-menu">
+
+                    <div class="currency-option active" data-value="INR">
+
+                        <span>₹ INR</span>
+
+                        <span>✓</span>
+
+                    </div>
+
+                    <div class="currency-option" data-value="USD">
+
+                        <span>$ USD</span>
+
+                        <span>✓</span>
+
+                    </div>
+
+                    <div class="currency-option" data-value="EUR">
+
+                        <span>€ EUR</span>
+
+                        <span>✓</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="plans">
+
+            <!-- BASIC -->
+            <article class="plan">
+
+                <header>
+                    <span class="mono">Basic</span>
+
+                    <h3 id="basicPrice"></h3>
+                </header>
+
+                <ul>
+                    <li>300 Automations / month</li>
+                    <li>Basic AI workflows</li>
+                    <li>Email Support</li>
+                    <li>Analytics Dashboard</li>
+                </ul>
+
+                <a href="#" class="btn-outline">
+                    Get Started
+                </a>
+
+            </article>
+
+            <!-- PRO -->
+            <article class="plan featured">
+
+                <div class="badge mono">
+                    Most Popular
+                </div>
+
+                <header>
+
+                    <span class="mono">
+                        Pro
+                    </span>
+
+                    <h3 id="proPrice"></h3>
+
+                </header>
+
+                <ul>
+                    <li>Unlimited Automations</li>
+                    <li>AI Agents</li>
+                    <li>CRM Integration</li>
+                    <li>Priority Support</li>
+                </ul>
+
+                <a href="#" class="btn-primary full">
+                    Go Pro
+                </a>
+
+            </article>
+
+            <!-- ENTERPRISE -->
+            <article class="plan">
+
+                <header>
+
+                    <span class="mono">
+                        Enterprise
+                    </span>
+
+                    <h3 id="enterprisePrice"></h3>
+
+                </header>
+
+                <ul>
+                    <li>Unlimited Everything</li>
+                    <li>Dedicated AI Models</li>
+                    <li>Custom Integrations</li>
+                    <li>24×7 Support</li>
+                </ul>
+
+                <a href="#" class="btn-outline">
+                    Contact Sales
+                </a>
+
+            </article>
+
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+
+        <div class="section-head">
+            <span class="mono tag">— 05 / FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-list">
+
+            <div class="faq-item active">
+                <button class="faq-question">
+                    <span>How does Askora work?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Upload your SOPs, PDFs, documentation or website.
+                        Askora learns from your business knowledge and answers customer
+                        questions instantly using AI.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Do I need coding knowledge?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        No. Askora is completely no-code.
+                        Upload your content and your AI assistant is ready in minutes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Can I update my AI later?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Absolutely.
+                        Upload new documents anytime and Askora immediately learns the
+                        latest information.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>What file types are supported?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        PDF, DOCX, TXT, websites, FAQs, knowledge bases,
+                        manuals and much more.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Can I cancel anytime?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes.
+                        There are no long-term contracts and you can upgrade,
+                        downgrade or cancel whenever you like.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="cta" data-testid="cta">
+        <h2>Stop searching.<br /><em>Start knowing.</em></h2>
+        <p>Your first 300 answers are on us. No card, no catch.</p>
+        <form class="cta-form" onsubmit="return window.askoraSubmit(event)">
+            <input type="email" required placeholder="you@domain.com" data-testid="cta-email" />
+            <button type="submit" class="btn-primary" data-testid="cta-submit">Get early access </button>
+        </form>
+        <span class="mono muted" id="cta-note">Join 41,208 people on the waitlist.</span>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" data-testid="footer">
+        <div class="foot-top">
+            <div>
+                <a href="#" class="logo">
+                    <span class="logo-mark">✦</span><span class="logo-text">Askora</span>
+                </a>
+                <p class="foot-tag">The AI search engine that actually answers.</p>
+            </div>
+            <div class="foot-cols">
+                <div>
+                    <span class="mono">Product</span>
+                    <a>Features</a><a>Pricing</a><a>API</a><a>Changelog</a>
+                </div>
+                <div>
+                    <span class="mono">Company</span>
+                    <a>About</a><a>Careers</a><a>Press</a><a>Contact</a>
+                </div>
+                <div>
+                    <span class="mono">Legal</span>
+                    <a>Privacy</a><a>Terms</a><a>Security</a><a>DPA</a>
+                </div>
+            </div>
+        </div>
+        <div class="foot-bot">
+            <span class="mono">© 2026 Askora Labs · Made for curious humans.</span>
+            <span class="mono">All systems normal <span class="live-dot"></span></span>
+        </div>
+        <!-- Floating AI Assistant -->
+
+        <div class="chat-widget">
+
+            <button class="chat-toggle">
+
+                💬
+
+            </button>
+
+            <div class="chat-box">
+
+                <div class="chat-header">
+
+                    Askora AI
+
+                </div>
+
+                <div class="chat-body">
+
+                    👋 Hi!
+
+                    <br><br>
+
+                    Need help choosing a plan?
+
+                </div>
+
+                <button class="chat-btn">
+
+                    Talk to Sales
+
+                </button>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

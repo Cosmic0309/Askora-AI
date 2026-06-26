@@ -26,8 +26,11 @@ A premium AI SaaS landing page built for the Frontend Battle Round 1 Hackathon.
 
 https://your-vercel-link.vercel.app
 
-## Screenshots
+## Video
+https://drive.google.com/file/d/1navnSUZdBxB-4DFZSLWguDvzyMKdBvXT/view?usp=sharing
 
+
+## Screenshots
 
 
 <img width="1918" height="1078" alt="Screenshot 2026-06-26 170336" src="https://github.com/user-attachments/assets/99524557-92ae-424b-ad80-bc3e7a768e3d" />
